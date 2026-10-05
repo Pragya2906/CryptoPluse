@@ -1,9 +1,7 @@
 # CryptoPulse
 
 A cryptocurrency market tracker — top 20 coins by market cap, live prices, 7-day charts,
-a persistent watchlist, and a two-coin comparison view. Built for the ProStackHub
-Frontend Development Internship (Task 2). Data from the CoinGecko API.
-
+a persistent watchlist, and a two-coin comparison view. 
 ## Features
 
 - **Markets table** — sortable (rank, price, market cap, 24h, 7d) and searchable by name/ticker
@@ -16,7 +14,7 @@ Frontend Development Internship (Task 2). Data from the CoinGecko API.
 
 ## Tech stack
 
-React 19 · Vite · Tailwind CSS v4 · Recharts · CoinGecko API
+React (Vite) · Tailwind CSS v4 · Recharts · CoinGecko API
 
 No router or data-fetching library — navigation and caching are hand-rolled and kept small.
 
